@@ -6,12 +6,12 @@
 }
 
 .home,
-.services,
-.products,
-.contact-us,
-.sign-up,
-.marketing,
-.consulting {
+.customers,
+.projects,
+.ourteam,
+.create,
+.companies,
+.people {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -20,7 +20,7 @@
 }
 
 .home {
-  background-image: url('./images/img-1.jpg');
+  background-image: url('./images/14.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@
   font-size: 100px;
 }
 
-.services {
+.customer {
   background-image: url('./images/img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -37,7 +37,7 @@
   font-size: 100px;
 }
 
-.products {
+.projects {
   background-image: url('./images/img-3.jpg');
   background-position: center;
   background-size: fill;
@@ -46,7 +46,7 @@
   font-size: 100px;
 }
 
-.contact-us {
+.ourteam {
   background-image: url('./images/img-4.jpg');
   background-position: center;
   background-size: cover;
@@ -55,7 +55,7 @@
   font-size: 100px;
 }
 
-.sign-up {
+.create {
   background-image: url('./images/img-7.jpg');
   background-position: center;
   background-size: cover;
@@ -64,7 +64,7 @@
   font-size: 100px;
 }
 
-.marketing {
+.companies {
   background-image: url('./images/img-6.jpg');
   background-position: center;
   background-size: cover;
@@ -73,7 +73,7 @@
   font-size: 100px;
 }
 
-.consulting {
+.people {
   background-image: url('./images/img-5.jpg');
   background-position: bottom;
   background-size: cover;
