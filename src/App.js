@@ -3,12 +3,13 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import ContactUs from './components/pages/ContactUs';
-import SignUp from './components/pages/SignUp';
-import Marketing from './components/pages/Marketing';
-import Consulting from './components/pages/Consulting';
+import Customer from './components/pages/Customer';
+import Projects from './components/pages/Projects';
+import Ourteam from './components/pages/Ourteam';
+import Companies from './components/pages/Companies';
+import People from './components/pages/People';
+import Create from './components/pages/Create';
+
 
 function App() {
   return (
@@ -16,12 +17,12 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/services' component={Services} />
-        <Route path='/products' component={Products} />
-        <Route path='/contact-us' component={ContactUs} />
-        <Route path='/sign-up' component={SignUp} />
-        <Route path='/marketing' component={Marketing} />
-        <Route path='/consulting' component={Consulting} />
+        <Route path='/customer' component={Customer} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/ourteam' component={Ourteam} />
+        <Route path='/create' component={Create} />
+        <Route path='/companies' component={Companies} />
+        <Route path='/people' component={People} />
       </Switch>
     </Router>
   );

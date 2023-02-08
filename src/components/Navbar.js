@@ -31,7 +31,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          EPIC
+          G3 Technology
           <i class='fab fa-firstdraft' />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -40,7 +40,10 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home
+              My Dashboard
+            
+              
+            
             </Link>
           </li>
           <li
@@ -49,39 +52,42 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/customer'
               className='nav-links'
               onClick={closeMobileMenu}
+            
             >
-              Services <i className='fas fa-caret-down' />
+              Customer <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/projects'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Products
+              Projects
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              to='/contact-us'
+              to='/ourteam'
               className='nav-links'
               onClick={closeMobileMenu}
+            
+              
             >
-              Contact Us
+              Our Team
             </Link>
           </li>
           <li>
             <Link
-              to='/sign-up'
+              to='/Create'
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
-              Sign Up
+              Create
             </Link>
           </li>
         </ul>
